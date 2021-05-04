@@ -1,0 +1,11 @@
+body
+{
+    font-family: 'Raleway', sans-serif;
+}
+.show-more
+{
+    text-decoration: none;
+    color: black;
+    border: 1px solid red;
+    border-radius: 25px;
+}
