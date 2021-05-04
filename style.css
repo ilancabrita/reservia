@@ -6,6 +6,14 @@ body
 {
     text-decoration: none;
     color: black;
+}
+div
+{
+    font-family: axtra-light
+    font-size: 200px
+}
+
+{
     border: 1px solid red;
     border-radius: 25px;
 }
