@@ -80,6 +80,7 @@ div
 {
     border: 2px solid white;
     background-color: rgb(226, 219, 219);
+    border-spacing: 20px;
 }
 .table-2
 {
@@ -88,6 +89,10 @@ div
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
     background-color: rgb(226, 219, 219);
+    border-spacing: 20px;
+}
+.table-3
+{
 }
 .table-4
 {
@@ -145,6 +150,8 @@ td
 {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between 1px;
 }
 .thead1
 {
@@ -177,4 +184,25 @@ td
 {
     display: flex;
     flex-direction: column;
+}
+.price-tab-1
+{
+    font-family: 'Raleway', sans-serif;
+}
+.title-image-1
+{
+    font-family: 'Raleway', sans-serif;
+}
+.header
+{
+    display: flex;
+    flex-direction: row;
+}
+.accommodation
+{
+    color: rgb(3, 104, 235);
+}
+.register
+{
+    color: rgb(10, 0, 99);
 }

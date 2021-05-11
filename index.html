@@ -7,28 +7,30 @@
                 <link rel="preconnect" href="https://fonts.gstatic.com">
                 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
                 <link rel="stylesheet" href="./style.css">
+                <link rel="preconnect" href="https://fonts.gstatic.com">
+                <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
         <title>Reservia</title>
         <link rel="icon" type="image/png" href="Z:\projet 2\Projet 2 - Reservia\images\logo\Reservia@3x.png">
     </head>
     <body>
         <header>
-            <div id="bloc_page">
-                <head><img src="Z:\projet 2\Projet 2 - Reservia\images\logo\Reservia@3x.png" alt="logo_page" title="Reservia" height="50" width="100"></head>
-            <div id="contener">
-                <div class="">Hébergements</div>
-                <div class="">Activités</div>
-                <div class="">S'inscrire</div>
+            <div id="header"></div>
+                <div id="bloc_page">
+                    <head><img src="Z:\projet 2\Projet 2 - Reservia\images\logo\Reservia@3x.png" alt="logo_page" title="Reservia" height="50" width="100"></head>
+                <div class="accommodation">Hébergements</div>
+                <div class="activities">Activités</div>
+                <div class="register">S'inscrire</div>
             </div>
         </header>
         <h2>Trouver votre hébergement pour des vacances de rêve</h2>
         <h3>En plein centre ville ou en pleine nature</h3>
         <form class="search" action="Recherche"><div><i class="fas fa-map-marker-alt" hight="5px" width="5px"></i><input type="search" name="q"><button>Recherche</button></div></form>
-        <h3>Filtres</h3>
-        <div class="filters"></div>
-            <div class="Econimic"><i class="fas fa-money-bill-wave"></i>Economique</div>
-            <div class="Family"><i class="fas fa-child" width=""></i>Faimllial</div>
-            <div class="Romantic"><i class="fas fa-heart"></i>Romantique</div>
-            <div class="Animal"><i class="fas fa-dog"></i>Animaux autorisés</div>
+        <div class="filters">
+            <h3>Filtres</h3>
+            <h5 class="Econimic"><i class="fas fa-money-bill-wave"></i>Economique</h5>
+            <h5 class="Family"><i class="fas fa-child" width=""></i>Faimllial</h5>
+            <h5 class="Romantic"><i class="fas fa-heart"></i>Romantique</h5>
+            <h5 class="Animal"><i class="fas fa-dog"></i>Animaux autorisés</h5>
         </div>
         <h5><i class="fas fa-info" size="0,1px"></i>Plus de 500 logements disponibles dans cette ville</h5>
         <!--voir comment faire pour les td de chaque tableau-->
@@ -40,38 +42,38 @@
             <tr>
                 <td>
                     <img src="Z:\projet 2\Projet 2 - Reservia\images\hebergements\3_medium\marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Image" height="100px" width="200px" class="image-tab-1">
-                    <h2 class="">Auberge la Cannebiére</h2>
+                    <h2 class="title-image-1">Auberge la Cannebiére</h2>
                     <h3 class="price-tab-1">Nuit à partir de 25€</h3>
                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
                 </td>
                 <td>
                     <img src="Z:\projet 2\Projet 2 - Reservia\images\hebergements\3_medium\fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Image" height="100px" width="200px" class="image-tab-1">
-                    <h2>Hôtel du port</h2>
+                    <h2 class="title-image-1">Hôtel du port</h2>
                     <h3 class="price-tab-1">Nui à partir de 52€</h3>
                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                 </td>
                 <td>
                     <img src="Z:\projet 2\Projet 2 - Reservia\images\hebergements\3_medium\reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Imange" height="100px" width="200px" class="image-tab-1">
-                    <h2>Hôtel Les mouettes</h2>
+                    <h2 class="title-image-1">Hôtel Les mouettes</h2>
                     <h3 class="price-tab-1">Nuit à partir de 76€</h3>
                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
                 </td>
             </tr>
                 <td>
                     <img src="Z:\projet 2\Projet 2 - Reservia\images\hebergements\3_medium\annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Imange" height="100px" width="200px" class="image-tab-1">
-                    <h2>Hôtel de la mer</h2>
+                    <h2 class="title-image-1">Hôtel de la mer</h2>
                     <h3 class="price-tab-1">Nuit à parti de 46€</h3>
                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
                 </td>
                 <td>
                     <img src="Z:\projet 2\Projet 2 - Reservia\images\hebergements\3_medium\nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Image" height="100px" width="200px" class="image-tab-1">
-                    <h2>Auberge Le Panier</h2>
+                    <h2 class="title-image-1">Auberge Le Panier</h2>
                     <h3 class="price-tab-1">Nuit à partir de 23€</h3>
                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
                 </td>
                 <td>
                     <img src="Z:\projet 2\Projet 2 - Reservia\images\hebergements\3_medium\febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Image" height="100px" width="200px" class="image-tab-1">
-                    <h2>Hôtel chez Amina</h2>
+                    <h2 class="title-image-1">Hôtel chez Amina</h2>
                     <h3 class="price-tab-1">Nuit à partir de 96€</h3>
                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                 </td>
@@ -87,8 +89,8 @@
                 <div class="contener">
                     <img src="Z:\projet 2\Projet 2 - Reservia\images\hebergements\3_medium\emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Image" height="100px" width="100px" class="image-tab-2">
                     <div class="text-tab-2">
-                        <h2>Hôtel Le soleil du matin</h2>
-                        <h3>Nuit à partir de 128€</h3>
+                        <h2 class="title-image-2">Hôtel Le soleil du <br>matin</h2>
+                        <h3 class="price-tab-2">Nuit à partir de 128€</h3>
                         <div class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
                     </div>
                 </div>
@@ -99,8 +101,8 @@
                 <div class="contener">
                     <img src="Z:\projet 2\Projet 2 - Reservia\images\hebergements\3_medium\aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Image" height="100" width="100" class="image-tab-2">
                     <div class="text-tab-2">
-                        <h2>Au coeur de l'eau Chambres d'hôtes</h2>
-                        <h3>Nuit à partir de 71€</h3>
+                        <h2 class="title-image-2">Au coeur de l'eau <br>Chambres d'hôtes</h2>
+                        <h3 class="price-tab-2">Nuit à partir de 71€</h3>
                         <div class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
                     </div>
                 </div>
@@ -111,8 +113,8 @@
                 <div class="contener">
                     <img src="Z:\projet 2\Projet 2 - Reservia\images\hebergements\3_medium\febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Image" height="100" width="100" class="image-tab-2">
                     <div class="text-tab-2">
-                        <h2>Hôtel Tout bleu et Blanc</h2>
-                        <h3>Nuit à partir de 68€</h3>
+                        <h2 class="title-image-2">Hôtel Tout bleu et <br>Blanc</h2>
+                        <h3 class="price-tab-2">Nuit à partir de 68€</h3>
                         <div class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
                     </div>
                 </div>
