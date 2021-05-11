@@ -158,17 +158,6 @@ td
     flex-wrap: wrap;
     align-content: space-between 1px;
 }
-.thead1
-{
-    border: 2px solid rgb(173, 168, 168);
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    background-color: rgb(173, 168, 168);
-}
-.thead2
-{
-
-}
 .text-tab-3
 {
     border-bottom-left-radius: 25px;
