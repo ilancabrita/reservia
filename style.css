@@ -6,11 +6,11 @@ body
 {
     text-decoration: none;
     color: black;
+    border: 1px solid rgb(226, 219, 219);
 }
 div
 {
-    font-family: axtra-light
-    font-size: 200px
+    font-family: axtra-light 200px;
 }
 .fa-star
 {
@@ -74,30 +74,27 @@ div
     border: 1px solid white;
     border-radius: 3px;
     background-color: rgb(226, 219, 219);
-    height="5px" width="5px"
+    height: 5px 5px
 }
 .table-1
 {
     border: 2px solid white;
     background-color: rgb(226, 219, 219);
-
 }
 .table-2
 {
-    border: 2px solid white;
-    border-end-end-radius: 20px;
-    background-color: rgb(226, 219, 219);
 
+    border: 2px solid rgb(226, 219, 219);
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: rgb(226, 219, 219);
 }
 .table-4
 {
     border: 2px solid white;
-    border-radius: 20px;
     background-color: rgb(226, 219, 219);
-
 }
 td
-
 {
     border: 2px solid white;
     border-radius: 25px;
@@ -106,10 +103,78 @@ td
 .contener
 {
     display: flex;
-    flex-direction:;
+    flex-direction: row;
 }
 .filters
 {
     display: flex;
     flex-direction: row;
+}
+.td4
+{
+    border: 2px solid rgb(226, 219, 219);
+    border-radius: 20px;
+    background-color: rgb(226, 219, 219);
+}
+.image-tab-1
+{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.image-tab-2
+{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.image-tab-3
+{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.search
+{
+    border-left: 0px blue
+}
+.fa-info
+{
+    color: blue;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 25px;
+}
+.text-tab-2
+{
+    display: flex;
+    flex-direction: column;
+}
+.thead1
+{
+    border: 2px solid rgb(226, 219, 219);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: rgb(226, 219, 219);
+}
+.text-tab-3
+{
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.strong
+{
+    display: flex;
+    flex-direction: column;
+}
+.iland
+{
+    display: flex;
+    flex-direction: column;
+}
+.montain
+{
+    display: flex;
+    flex-direction: column;
+}
+.park
+{
+    display: flex;
+    flex-direction: column;
 }
