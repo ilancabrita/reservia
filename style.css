@@ -6,12 +6,10 @@ body
 {
     text-decoration: none;
     color: black;
-    border: 1px solid rgb(158, 157, 157);
-    background-color: rgb(158, 157, 157);
-}
-div
-{
-    font-family: axtra-light 200px;
+    border: 1px solid rgb(197, 196, 196);
+    background-color: rgb(197, 196, 196);
+    margin: 10px;
+    padding-top: 5px;
 }
 .fa-star
 {
@@ -27,6 +25,7 @@ div
     border: 3px solid rgb(177, 202, 248);
     border-radius: 25px;
     background-color: rgb(177, 202, 248);
+    padding: 2px;
 }
 .fa-money-bill-wave
 {
@@ -34,6 +33,7 @@ div
     border: 3px solid rgb(177, 202, 248);
     border-radius: 25px;
     background-color: rgb(177, 202, 248);
+    padding: 2px;
 }
 .fa-child
 {
@@ -41,6 +41,7 @@ div
     border: 3px solid rgb(177, 202, 248);
     border-radius: 25px;
     background-color: rgb(177, 202, 248);
+    padding: 2px;
 }
 .fa-heart
 {
@@ -48,49 +49,72 @@ div
     border: 3px solid rgb(177, 202, 248);
     border-radius: 25px;
     background-color: rgb(177, 202, 248);
+    padding: 2px;
 }
 .Econimic
 {
     border: 1px solid rgb(173, 173, 173);
     border-radius: 25px;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 4px;
+    padding-right: 10px;
+    margin: 10px;
 }
 .Family
 {
     border: 1px solid rgb(173, 173, 173);
     border-radius: 25px;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 4px;
+    padding-right: 10px;
+    margin: 10px;
 }
 .Romantic
 {
     border: 1px solid rgb(173, 173, 173);
     border-radius: 25px;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 4px;
+    padding-right: 10px;
+    margin: 10px;
 }
 .Animal
 {
     border: 1px solid rgb(173, 173, 173);
     border-radius: 25px;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 4px;
+    padding-right: 10px;
+    margin: 10px;
 }
 .fa-map-marker-alt
 {
     color: grey;
-    border: 1px solid white;
-    border-radius: 3px;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     background-color: rgb(226, 219, 219);
     padding: 5px;
 }
 .table-1
 {
-    border: 2px solid rgb(158, 157, 157);
+    border: 2px solid rgb(197, 196, 196);
     border-radius: 25px;
-    background-color: rgb(158, 157, 157);
+    background-color: rgb(197, 196, 196);
     padding: 15px;
-    margin: 5px;
+    margin: 10px;
 }
 .table-2
 {
-    border: 2px solid rgb(158, 157, 157);
+    border: 2px solid rgb(197, 196, 196);
     border-radius: 25px;
-    background-color: rgb(158, 157, 157);
+    background-color: rgb(197, 196, 196);
     padding: 15px;
+    margin: 10px;
 }
 .table-3
 {
@@ -98,8 +122,8 @@ div
 }
 .table-4
 {
-    border: 2px solid rgb(158, 157, 157);
-    background-color: rgb(158, 157, 157);
+    border: 2px solid rgb(197, 196, 196);
+    background-color: rgb(197, 196, 196);
 }
 .contener
 {
@@ -135,6 +159,8 @@ div
 .search
 {
     border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
     background-color: blue;
     color: white;
     padding: 8px;
@@ -180,11 +206,34 @@ div
 }
 .price-tab-1
 {
-    font-family: 'Raleway', sans-serif;
+    margin: 2px;
+    margin-left: 5px;
+    font-size: 16px;
+}
+.price-tab-2
+{
+    margin: 2px;
+    margin-left: 5px;
+
 }
 .title-image-1
 {
-    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    size: 5px;
+    margin: 2px;
+}
+.title-image-2
+{
+    margin: 2px;
+    margin-left: 5px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.text-tab-3
+{
+    font-weight: 700;
+    font-size: 16px;
+    margin: 10px;
 }
 header
 {
@@ -194,10 +243,18 @@ header
 .accommodation
 {
     color: rgb(3, 104, 235);
+    margin-right: 50px;
+    font-size: 15px;
+}
+.activities
+{
+    font-size: 10px;
 }
 .register
 {
     color: rgb(29, 6, 236);
+    margin-left: 50px;
+    font-size: 15px;
 }
 #bloc_page
 {
@@ -209,17 +266,21 @@ header
 }
 .case1
 {
-    border: 2px solid white;
+    border: 5px solid white;
     border-radius: 25px;
     background-color: white;
     margin: 10px;
+    width: 200px;
+    height: 170px;
 }
 .case2
 {
-    border: 2px solid white;
+    border: 5px solid white;
     border-radius: 25px;
     background-color: white;
     margin: 10px;
+    width: 300px;
+    height: 100px;
 }
 .case3
 {
@@ -227,6 +288,11 @@ header
     border-radius: 25px;
     background-color: white;
     margin: 10px;
+}
+.case4
+{
+    margin: 10px;
+    padding: 10px;
 }
 .box1
 {
@@ -242,4 +308,57 @@ header
 {
     display: flex;
     flex-wrap: wrap;
+}
+.box4
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+h3
+{
+    font-weight: 200;
+}
+h2
+{
+    font-weight: 600;
+    font-size: 30px;
+}
+.write
+{
+    padding: 6px;
+}
+.h2-tab-4
+{
+    font-weight: 700;
+    font-size: 16px;
+}
+.h3-tab-4
+{
+    font-weight: 100;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.information
+{
+    font-weight: 200;
+    font-size: 13px;
+}
+.h3-filters
+{
+    font-weight: 800;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.h2-header
+{
+    font-weight: 800;
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+.h3-header
+{
+    font-weight: 200;
+    font-size: 13px;
+    margin-top: 2px;
 }
