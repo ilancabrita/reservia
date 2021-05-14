@@ -115,15 +115,21 @@ body
     background-color: rgb(197, 196, 196);
     padding: 15px;
     margin: 10px;
+    width: 500px;
 }
 .table-3
 {
     border-spacing: 20px;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 10px;
 }
 .table-4
 {
     border: 2px solid rgb(197, 196, 196);
     background-color: rgb(197, 196, 196);
+    padding: 15px;
+    margin: 10px;
 }
 .contener
 {
@@ -208,13 +214,15 @@ body
 {
     margin: 2px;
     margin-left: 5px;
-    font-size: 16px;
+    font-weight: 200;
+    font-size: 14px;
 }
 .price-tab-2
 {
     margin: 2px;
     margin-left: 5px;
-
+    font-weight: 200;
+    font-size: 14px;
 }
 .title-image-1
 {
@@ -280,7 +288,7 @@ header
     background-color: white;
     margin: 10px;
     width: 300px;
-    height: 100px;
+    height: 110px;
 }
 .case3
 {
@@ -361,4 +369,37 @@ h2
     font-weight: 200;
     font-size: 13px;
     margin-top: 2px;
+}
+.big-box
+{
+    display: flex;
+    flex-direction: row;
+}
+.title-tab-1
+{
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 12px;
+}
+.title-tab-2
+{
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 12px;
+}
+.title-tab-3
+{
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 12px;
+}
+.column1
+{
+    display: flex;
+    flex-direction: column;
+}
+.column2
+{
+    display: flex;
+    flex-direction: column;
 }
