@@ -151,11 +151,15 @@ body
 {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    height: 100px;
+    width: 200px;
 }
 .image-tab-2
 {
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
+    height: 110px;
+    width: 110px;
 }
 .image-tab-3
 {
