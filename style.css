@@ -161,10 +161,19 @@ body
     height: 110px;
     width: 110px;
 }
-.image-tab-3
+.image-tab-3-1
 {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    height: 300px;
+    width: 250px;
+}
+.image-tab-3-2
+{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    height: 300px;
+    width: 250px;
 }
 .search
 {
@@ -406,4 +415,36 @@ h2
 {
     display: flex;
     flex-direction: column;
+}
+
+
+
+@media only screen and (device-width : 375px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 2)
+{
+    body 
+    {
+      background-color: white;
+    }
+    .big-box
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+    .table-2
+    {
+        border-radius: 0;
+        margin: 0;
+    }
+    .table-1
+    {
+        margin: 0;
+        background-color: white;
+        border: white
+    }
+    .show-more
+    {
+        border: white;
+        background: white;
+    }
 }
