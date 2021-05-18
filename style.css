@@ -27,7 +27,7 @@ body
     background-color: rgb(177, 202, 248);
     padding: 2px;
 }
-.fa-money-bill-wave
+.filters-icons
 {
     color: rgb(90, 90, 209);
     border: 3px solid rgb(177, 202, 248);
@@ -128,8 +128,8 @@ body
 {
     border: 2px solid rgb(197, 196, 196);
     background-color: rgb(197, 196, 196);
-    padding: 15px;
-    margin: 10px;
+    padding: 10px;
+    margin: 20px;
 }
 .contener
 {
@@ -324,7 +324,7 @@ header
 }
 .case4
 {
-    margin: 10px;
+    margin: 40px;
     padding: 10px;
 }
 .box1
@@ -431,7 +431,7 @@ h2
 
 
 
-@media only screen and (device-width : 375px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 2)
+@media only screen and (device-width : 375px)
 {
     body 
     {
@@ -445,6 +445,7 @@ h2
     }
     .table-2
     {
+        width: 100%;
         border-radius: 0;
         margin: 0;
     }
@@ -503,5 +504,18 @@ h2
     {
         display: flex;
         flex-direction: column;
+    }
+    .box2
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .box1
+    {
+        justify-content: center;
+    }
+    .case1
+    {
+        width: 90%;
     }
 }
