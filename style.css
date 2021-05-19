@@ -36,31 +36,34 @@ body
 {
     margin: 0;
     margin-right: 10px;
-    background-color: #C2D4FE;
-    padding: 7px;
+    background-color: #deecff;
+    padding: 12px;
     border-radius: 50%;
     color: #0356fc;
     font-size: 16px;
+    font-weight: 900;
+    width: 20px;
+    height: 16px;
+    text-align: center;
 }
 .fa-dog
 {
-    border: 3px solid #C2D4FE;
+    border: 3px solid #deecff;
     border-radius: 25px;
 }
 .fa-money-bill-wave
 {
-    border: 3px solid #C2D4FE;
+    border: 3px solid #deecff;
     border-radius: 25px;
 }
 .fa-child
 {
-    border: 3px solid #C2D4FE;
+    border: 3px solid #deecff;
     border-radius: 25px;
-    width: ;
 }
 .fa-heart
 {
-    border: 3px solid #C2D4FE;
+    border: 3px solid #deecff;
     border-radius: 25px;
 }
 .Econimic
@@ -200,6 +203,9 @@ body
     border: 1px solid rgb(197, 197, 197);
     border-radius: 50%;
     padding: 5px;
+    height: 10px;
+    width: 10px;
+    text-align: center;
 }
 .information
 {
