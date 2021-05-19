@@ -5,55 +5,63 @@ body
 .show-more
 {
     text-decoration: none;
-    color: #6B6B6B;
+    color: black;
     border: 1px solid F2F2F2;
     background-color: F2F2F2;
     margin: 10px;
     padding-top: 5px;
+    font-weight: 600;
 }
 .fa-star
 {
-    color: blue;
+    color: #0157FC;
 }
 .star
 {
     display: flax;
 }
-.fa-dog
+.filters
 {
-    color: rgb(90, 90, 209);
-    border: 3px solid rgb(177, 202, 248);
+    display: flex;
+    flex-direction: row;
+}
+.filter
+{
+    border: 1px solid lightgrey;
     border-radius: 25px;
-    background-color: rgb(177, 202, 248);
-    padding: 2px;
+    padding-right: 20px;
+    margin-right: 15px;
 }
 .filters-icons
 {
-    color: blue;
+    margin: 0;
+    margin-right: 10px;
+    background-color: #C2D4FE;
+    padding: 7px;
+    border-radius: 50%;
+    color: #0356fc;
+    font-size: 16px;
+}
+.fa-dog
+{
+    border: 3px solid #C2D4FE;
+    border-radius: 25px;
 }
 .fa-money-bill-wave
 {
-    color: rgb(90, 90, 209);
-    border: 3px solid rgb(177, 202, 248);
+    border: 3px solid #C2D4FE;
     border-radius: 25px;
-    background-color: rgb(177, 202, 248);
-    padding: 2px;
 }
 .fa-child
 {
-    color: rgb(90, 90, 209);
-    border: 3px solid rgb(177, 202, 248);
+    border: 3px solid #C2D4FE;
     border-radius: 25px;
-    background-color: rgb(177, 202, 248);
-    padding: 2px;
+    width: ;
 }
 .fa-heart
 {
-    color: rgb(90, 90, 209);
-    border: 3px solid rgb(177, 202, 248);
+    border: 3px solid #C2D4FE;
     border-radius: 25px;
-    background-color: rgb(177, 202, 248);
-    padding: 2px;
 }
 .Econimic
 {
@@ -61,9 +69,8 @@ body
     border-radius: 25px;
     font-weight: 700;
     font-size: 15px;
-    padding: 4px;
     padding-right: 10px;
-    margin: 10px;
+    margin: 5px;
 }
 .Family
 {
@@ -71,9 +78,8 @@ body
     border-radius: 25px;
     font-weight: 700;
     font-size: 15px;
-    padding: 4px;
     padding-right: 10px;
-    margin: 10px;
+    margin: 5px;
 }
 .Romantic
 {
@@ -81,9 +87,8 @@ body
     border-radius: 25px;
     font-weight: 700;
     font-size: 15px;
-    padding: 4px;
     padding-right: 10px;
-    margin: 10px;
+    margin: 5px;
 }
 .Animal
 {
@@ -91,18 +96,17 @@ body
     border-radius: 25px;
     font-weight: 700;
     font-size: 15px;
-    padding: 4px;
     padding-right: 10px;
-    margin: 10px;
+    margin: 5px;
 }
 .fa-map-marker-alt
 {
-    color: grey;
+    color: #666766;
     border: none;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    background-color: rgb(226, 219, 219);
-    padding: 5px;
+    background-color: #D1D1D1;
+    padding: 8px;
 }
 .table-1
 {
@@ -140,11 +144,6 @@ body
     display: flex;
     flex-direction: row;
 }
-.filters
-{
-    display: flex;
-    flex-direction: row;
-}
 .td4
 {
     border: 2px solid rgb(226, 219, 219);
@@ -156,7 +155,7 @@ body
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     height: 100px;
-    width: 200px;
+    width: 250px;
 }
 .image-tab-2
 {
@@ -199,8 +198,13 @@ body
 {
     color: blue;
     border: 1px solid rgb(197, 197, 197);
-    border-radius: 25px;
-    padding: 2px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.information
+{
+    font-weight: 200;
+    font-size: 13px;
 }
 .text-tab-2
 {
@@ -307,7 +311,7 @@ header
     border-radius: 25px;
     background-color: white;
     margin: 10px;
-    width: 200px;
+    width: 250px;
     height: 170px;
 }
 .case2
@@ -376,11 +380,6 @@ h2
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.information
-{
-    font-weight: 200;
-    font-size: 13px;
-}
 .h3-filters
 {
     font-weight: 800;
@@ -415,6 +414,9 @@ h2
     font-weight: 700;
     font-size: 20px;
     padding-left: 12px;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
 }
 .title-tab-3
 {
