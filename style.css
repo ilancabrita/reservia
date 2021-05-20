@@ -18,7 +18,9 @@ body
 }
 .star
 {
-    display: flax;
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
 }
 .filters
 {
@@ -130,7 +132,7 @@ body
 }
 .table-3
 {
-    border-spacing: 20px;
+    border: 2px rgb(209, 209, 209);
     border-radius: 25px;
     padding: 15px;
     margin: 10px;
@@ -141,6 +143,10 @@ body
     background-color: rgb(197, 196, 196);
     padding: 10px;
     margin: 20px;
+}
+.fa-chart-line
+{
+    margin-left: auto;
 }
 .contener
 {
@@ -158,7 +164,7 @@ body
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     height: 100px;
-    width: 250px;
+    width: 100%;
 }
 .image-tab-2
 {
@@ -172,21 +178,21 @@ body
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     height: 300px;
-    width: 250px;
+    width: 100%;
 }
 .image-tab-3-2
 {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     height: 105px;
-    width: 250px;
+    width: 100%;
 }
 .image-tab-3-3
 {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     height: 130px;
-    width: 250px;
+    width: 100%;
 }
 .search
 {
@@ -202,15 +208,19 @@ body
     color: blue;
     border: 1px solid rgb(197, 197, 197);
     border-radius: 50%;
-    padding: 5px;
+    padding: 2px;
     height: 10px;
     width: 10px;
     text-align: center;
+    font-size: 7px;
+    margin-right: 5px;
 }
 .information
 {
     font-weight: 200;
-    font-size: 13px;
+    font-size: 12px;
+    margin: 20px;
+    margin-left: 0;
 }
 .text-tab-2
 {
@@ -223,6 +233,7 @@ body
 {
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
+    margin-left: 10px;
 }
 .strong
 {
@@ -250,6 +261,7 @@ body
     margin-left: 5px;
     font-weight: 200;
     font-size: 14px;
+    margin-left: 5px;
 }
 .price-tab-2
 {
@@ -257,12 +269,14 @@ body
     margin-left: 5px;
     font-weight: 200;
     font-size: 14px;
+    margin-left: 5px;
 }
 .title-image-1
 {
     font-size: 16px;
     size: 5px;
     margin: 2px;
+    margin-left: 5px;
 }
 .title-image-2
 {
@@ -270,6 +284,7 @@ body
     margin-left: 5px;
     font-weight: 700;
     font-size: 16px;
+    margin-left: 5px;
 }
 .text-tab-3
 {
@@ -317,7 +332,7 @@ header
     border-radius: 25px;
     background-color: white;
     margin: 10px;
-    width: 250px;
+    width: 30%;
     height: 170px;
 }
 .case2
@@ -331,15 +346,16 @@ header
 }
 .case3
 {
-    border: 2px solid white;
+    border: 1px solid rgb(209, 209, 209);
     border-radius: 25px;
     background-color: white;
     margin: 10px;
+    width: 20%;
 }
 .case4
 {
     margin: 40px;
-    padding: 10px;
+    width: 25%;
 }
 .box1
 {
@@ -354,6 +370,7 @@ header
 .box3
 {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 .box4
@@ -389,7 +406,7 @@ h2
 .h3-filters
 {
     font-weight: 800;
-    font-size: 15px;
+    font-size: 18px;
     margin-right: 10px;
 }
 .h2-header
