@@ -16,11 +16,17 @@ body
 {
     color: #0157FC;
 }
-.star
+.star1
+{
+    padding-left: 10px;
+    margin: 2px;
+}
+.star2
 {
     display: flex;
     flex-direction: row;
-    margin-left: 5px;
+    margin: 2px;
+    margin-left: 4px;
 }
 .filters
 {
@@ -120,6 +126,7 @@ body
     background-color: #F2F2F2;
     padding: 15px;
     margin: 10px;
+    width: 90%;
 }
 .table-2
 {
@@ -128,11 +135,11 @@ body
     background-color: #F2F2F2;
     padding: 15px;
     margin: 10px;
-    width: 500px;
+    width: auto;
 }
 .table-3
 {
-    border: 2px rgb(209, 209, 209);
+    border: 2px;
     border-radius: 25px;
     padding: 15px;
     margin: 10px;
@@ -184,14 +191,14 @@ body
 {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    height: 105px;
+    height: 110px;
     width: 100%;
 }
 .image-tab-3-3
 {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    height: 130px;
+    height: 135px;
     width: 100%;
 }
 .search
@@ -228,12 +235,13 @@ body
     flex-direction: column;
     flex-wrap: wrap;
     align-content: space-between 1px;
+    padding-left: 10px;
 }
 .text-tab-3
 {
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-    margin-left: 10px;
+    padding-left: 10px;
 }
 .strong
 {
@@ -261,7 +269,7 @@ body
     margin-left: 5px;
     font-weight: 200;
     font-size: 14px;
-    margin-left: 5px;
+    padding-left: 10px;
 }
 .price-tab-2
 {
@@ -269,7 +277,6 @@ body
     margin-left: 5px;
     font-weight: 200;
     font-size: 14px;
-    margin-left: 5px;
 }
 .title-image-1
 {
@@ -277,6 +284,7 @@ body
     size: 5px;
     margin: 2px;
     margin-left: 5px;
+    padding-left: 10px;
 }
 .title-image-2
 {
@@ -284,7 +292,6 @@ body
     margin-left: 5px;
     font-weight: 700;
     font-size: 16px;
-    margin-left: 5px;
 }
 .text-tab-3
 {
@@ -341,8 +348,8 @@ header
     border-radius: 25px;
     background-color: white;
     margin: 10px;
-    width: 300px;
     height: 110px;
+    width: 100%
 }
 .case3
 {
@@ -350,7 +357,7 @@ header
     border-radius: 25px;
     background-color: white;
     margin: 10px;
-    width: 20%;
+    width: 95%;
 }
 .case4
 {
@@ -371,7 +378,6 @@ header
 {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
 }
 .box4
 {
