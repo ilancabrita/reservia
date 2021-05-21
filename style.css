@@ -471,6 +471,16 @@ h2
     body 
     {
       background-color: white;
+      margin-left: 0px;
+    }
+    header, .h2-header, .h3-header, .map-marker-alt, .filters, .information
+    {
+        margin-left: 8px;
+    }
+    .filters
+    {
+        display: flex;
+        flex-wrap: wrap;
     }
     .big-box
     {
