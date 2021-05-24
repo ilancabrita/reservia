@@ -466,7 +466,7 @@ h2
 
 
 
-@media only screen and (device-width : 365px)
+@media only screen and (device-width : 375px)
 {
     body 
     {
@@ -478,6 +478,10 @@ h2
     header, .h2-header, .h3-header, .map-marker-alt, .filters, .information
     {
         margin-left: 8px;
+    }
+    .register
+    {
+        margin-right: auto;
     }
     .filters
     {
@@ -495,6 +499,7 @@ h2
         width: 100%;
         border-radius: 0;
         margin: 0;
+        padding: 0;
     }
     .table-1
     {
@@ -506,6 +511,7 @@ h2
     {
         border: white;
         background: white;
+        font-size: 13px;
     }
     .image-tab-1
     {
@@ -526,7 +532,7 @@ h2
         border-top-left-radius: 25px;
         border-top-right-radius: 25px;
         height: 120px;
-        width: auto;
+        width: 100%;
     }
     .image-tab-3-2
     {
@@ -549,12 +555,12 @@ h2
     }
     .table-3
     {
-        display: flex;
-        flex-direction: column;
+        margin: 0;
+        padding: 0;
     }
     .table-4
     {
-        margin: 10px;
+        margin: 0;
     }
     .box2
     {
@@ -569,10 +575,15 @@ h2
     {
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
     }
     .case1
     {
         width: 90%;
+    }
+    .case3
+    {
+        width: 95%;
     }
     .case4
     {
@@ -582,14 +593,15 @@ h2
     .column1
     {
         display: flex;
-        flex-direction: none;
+        justify-content: center;
         flex-wrap: wrap;
+        width: 98%;
     }
     .column2
     {
         display: flex;
-        flex-direction: row;
+        justify-content: center;
         flex-wrap: wrap;
+        width: 98%;
     }
-
 }
