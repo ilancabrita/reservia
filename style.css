@@ -146,8 +146,8 @@ body
 }
 .table-4
 {
-    border: 2px solid rgb(197, 196, 196);
-    background-color: rgb(197, 196, 196);
+    border: 2px solid #F2F2F2;
+    background-color: #F2F2F2;
     padding: 10px;
     margin: 20px;
 }
@@ -518,7 +518,7 @@ h2
         border-top-left-radius: 25px;
         border-top-right-radius: 25px;
         height: 120px;
-        width: 90%;
+        width: 100%;
     }
     .image-tab-2
     {
@@ -579,11 +579,13 @@ h2
     }
     .case1
     {
+        border: 1px solid rgb(209, 209, 209);
         width: 90%;
+        height: 190px;
     }
     .case3
     {
-        width: 95%;
+        width: 90%;
     }
     .case4
     {
