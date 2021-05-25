@@ -27,6 +27,7 @@ body
     flex-direction: row;
     margin: 2px;
     margin-left: 4px;
+    margin-top: 20px;
 }
 .filters
 {
@@ -577,11 +578,19 @@ h2
         justify-content: center;
         flex-wrap: wrap;
     }
+    .fa-chart-line
+    {
+        margin-right: 15px;
+    }
     .case1
     {
         border: 1px solid rgb(209, 209, 209);
         width: 90%;
         height: 190px;
+    }
+    .case2
+    {
+        width: 90%;
     }
     .case3
     {
@@ -594,15 +603,13 @@ h2
     }
     .column1
     {
-        display: flex;
-        justify-content: center;
+        margin-left: 9px;
         flex-wrap: wrap;
         width: 98%;
     }
     .column2
     {
-        display: flex;
-        justify-content: center;
+        margin-left: 9px;
         flex-wrap: wrap;
         width: 98%;
     }
