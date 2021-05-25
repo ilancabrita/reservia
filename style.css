@@ -211,6 +211,10 @@ body
     color: white;
     padding: 8px;
 }
+.search-phone
+{
+    display: none;
+}
 .fa-info
 {
     color: blue;
@@ -313,7 +317,7 @@ header
 }
 .activities
 {
-    font-size: 10px;
+    font-size: 15px;
 }
 .register
 {
@@ -464,6 +468,10 @@ h2
     display: flex;
     flex-direction: column;
 }
+.phone
+{
+    display: none;
+}
 
 
 
@@ -603,14 +611,43 @@ h2
     }
     .column1
     {
-        margin-left: 9px;
         flex-wrap: wrap;
-        width: 98%;
+        width: 100%;
+        align-items: center;
     }
     .column2
     {
-        margin-left: 9px;
         flex-wrap: wrap;
-        width: 98%;
+        width: 100%;
+        align-items: center;
+    }
+    .web
+    {
+        display: none;
+    }
+    .phone
+    {
+        display: block;
+    }
+    .search-phone
+    {
+        display: inline-block;
+    }
+    .accommodation
+    {
+        width: 50%;
+        border-bottom: 2px solid blue;
+        margin: 0;
+        text-align: center;
+    }
+    .activities
+    {
+        width: 50%;
+        border-bottom: 2px solid gray;
+        text-align: center;
+    }
+    .menu
+    {
+        display: flex;
     }
 }
