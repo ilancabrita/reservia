@@ -171,7 +171,7 @@ body
 {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    height: 100px;
+    height: 110px;
     width: 100%;
 }
 .image-tab-2
@@ -185,21 +185,21 @@ body
 {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    height: 300px;
+    height: 320px;
     width: 100%;
 }
 .image-tab-3-2
 {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    height: 110px;
+    height: 120px;
     width: 100%;
 }
 .image-tab-3-3
 {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    height: 135px;
+    height: 145px;
     width: 100%;
 }
 .search
@@ -311,21 +311,25 @@ header
 }
 .accommodation
 {
+    border-top: 2px solid blue;
     color: rgb(3, 104, 235);
     margin-right: 50px;
     font-size: 15px;
+    padding-top: 5px;
 }
 .activities
 {
     font-size: 15px;
+    padding-top: 5px;
 }
 .register
 {
     color: rgb(29, 6, 236);
     margin-left: 50px;
     font-size: 15px;
+    padding-top: 5px;
 }
-#bloc_page
+#bloc_page-1
 {
     margin-right: auto;
 }
@@ -633,7 +637,7 @@ h2
     {
         display: inline-block;
     }
-    .accommodation
+    .accommodation-2
     {
         width: 50%;
         border-bottom: 2px solid blue;
@@ -646,8 +650,20 @@ h2
         border-bottom: 2px solid gray;
         text-align: center;
     }
-    .menu
+    .menu-2
     {
         display: flex;
+    }
+    .menu-1
+    {
+        display: flex;
+    }
+    #bloc_page-2
+    {
+        margin-right: auto;
+    }
+    .register-2
+    {
+        margin-right: 30px;
     }
 }
