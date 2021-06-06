@@ -307,8 +307,8 @@ header
 }
 .accommodation
 {
-    border-top: 2px solid blue;
-    color: rgb(3, 104, 235);
+    border-top: 2px solid #0065FC;
+    color: #0065FC;
     margin-right: 50px;
     font-size: 15px;
     padding-top: 5px;
@@ -317,6 +317,7 @@ header
 {
     font-size: 15px;
     padding-top: 5px;
+    
 }
 .register
 {
@@ -476,8 +477,11 @@ h2
 {
     display: none;
 }
-
-
+.nav
+{
+    display: flex;
+    flex-direction: row;
+}
 
 @media only screen and (max-width : 375px)
 {
