@@ -87,6 +87,10 @@ body
     padding-right: 10px;
     margin: 5px;
 }
+.Econimic:hover
+{
+    background-color: green;
+}
 .Family
 {
     border: 1px solid #F2F2F2;
@@ -95,6 +99,10 @@ body
     font-size: 15px;
     padding-right: 10px;
     margin: 5px;
+}
+.Family:hover
+{
+    background-color: green;
 }
 .Romantic
 {
@@ -105,6 +113,10 @@ body
     padding-right: 10px;
     margin: 5px;
 }
+.Romantic:hover
+{
+    background-color: green;
+}
 .Animal
 {
     border: 1px solid #F2F2F2;
@@ -113,6 +125,10 @@ body
     font-size: 15px;
     padding-right: 10px;
     margin: 5px;
+}
+.Animal:hover
+{
+    background-color: green;
 }
 .fa-map-marker-alt
 {
@@ -170,6 +186,7 @@ body
     border-top-right-radius: 25px;
     height: 110px;
     width: 100%;
+    filter: blur(auto);
 }
 .image-tab-2
 {
@@ -177,6 +194,7 @@ body
     border-bottom-left-radius: 25px;
     height: 110px;
     width: 110px;
+    filter: blur(auto);
 }
 .image-tab-3-1
 {
@@ -184,6 +202,7 @@ body
     border-top-right-radius: 25px;
     height: 320px;
     width: 100%;
+    filter: blur(auto);
 }
 .image-tab-3-2
 {
@@ -191,6 +210,7 @@ body
     border-top-right-radius: 25px;
     height: 120px;
     width: 100%;
+    filter: blur(auto);
 }
 .image-tab-3-3
 {
@@ -198,6 +218,7 @@ body
     border-top-right-radius: 25px;
     height: 145px;
     width: 100%;
+    filter: blur(auto);
 }
 .search
 {
@@ -347,6 +368,10 @@ header
     width: 30%;
     height: 170px;
 }
+.case1:active
+{
+    background-color: indigo;
+}
 .case2
 {
     border: 5px solid white;
@@ -355,6 +380,10 @@ header
     margin: 10px;
     height: 110px;
     width: 100%
+}
+.case2:active
+{
+    background-color: indigo;
 }
 .case3
 {
