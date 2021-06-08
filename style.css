@@ -90,6 +90,7 @@ body
 .Econimic:hover
 {
     background-color: green;
+    cursor: pointer;
 }
 .Family
 {
@@ -103,6 +104,7 @@ body
 .Family:hover
 {
     background-color: green;
+    cursor: pointer;
 }
 .Romantic
 {
@@ -116,6 +118,7 @@ body
 .Romantic:hover
 {
     background-color: green;
+    cursor: pointer;
 }
 .Animal
 {
@@ -129,6 +132,7 @@ body
 .Animal:hover
 {
     background-color: green;
+    cursor: pointer;
 }
 .fa-map-marker-alt
 {
@@ -186,6 +190,7 @@ body
     border-top-right-radius: 25px;
     height: 110px;
     width: 100%;
+    object-fit: cover;
 }
 .image-tab-2
 {
@@ -193,6 +198,7 @@ body
     border-bottom-left-radius: 25px;
     height: 110px;
     width: 110px;
+    object-fit: cover;
 }
 .image-tab-3-1
 {
@@ -200,6 +206,7 @@ body
     border-top-right-radius: 25px;
     height: 320px;
     width: 100%;
+    object-fit: cover;
 }
 .image-tab-3-2
 {
@@ -207,6 +214,7 @@ body
     border-top-right-radius: 25px;
     height: 120px;
     width: 100%;
+    object-fit: cover;
 }
 .image-tab-3-3
 {
@@ -214,6 +222,7 @@ body
     border-top-right-radius: 25px;
     height: 145px;
     width: 100%;
+    object-fit: cover;
 }
 .search
 {
@@ -222,7 +231,7 @@ body
     border-bottom-right-radius: 10px;
     background-color: #0065FC;
     color: white;
-    padding: 8px;
+    padding: 12px;
 }
 .search-phone
 {
@@ -521,7 +530,7 @@ h2
     }
     .write2
     {
-        padding: 15px;
+        padding: 10px;
     }
     .register
     {
@@ -662,6 +671,11 @@ h2
     .phone
     {
         display: block;
+    }
+    .phone-nav
+    {
+        display: flex;
+        flex-direction: row;
     }
     .search-phone
     {
