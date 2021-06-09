@@ -528,7 +528,7 @@ h2
     flex-direction: row;
 }
 
-@media only screen and (max-width : 375px)
+@media only screen (max-width : 375px)
 {
     body 
     {
@@ -723,5 +723,13 @@ h2
     #bloc_page-2
     {
         margin-right: auto;
+    }
+}
+@media screen (max-width : 667px)
+{
+    .filters
+    {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
