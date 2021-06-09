@@ -16,6 +16,11 @@ body
 {
     color: #0065FC;
 }
+.menu
+{
+    display: flex;
+    flex-direction: row;
+}
 .star1
 {
     padding-left: 10px;
@@ -231,7 +236,7 @@ body
     border-bottom-right-radius: 10px;
     background-color: #0065FC;
     color: white;
-    padding: 12px;
+    padding: 10px;
 }
 .search-phone
 {
@@ -338,10 +343,18 @@ header
     font-size: 15px;
     padding-top: 5px;
 }
+#accommodation
+{
+    text-decoration: none;
+}
 .activities
 {
     font-size: 15px;
     padding-top: 5px;
+}
+#activities
+{
+    text-decoration: none;
 }
 .register
 {
@@ -532,14 +545,14 @@ h2
     {
         padding: 10px;
     }
-    .register
-    {
-        margin-right: auto;
-    }
     .filters
     {
         display: flex;
         flex-wrap: wrap;
+    }
+    .h3-filters
+    {
+        width: 100%;
     }
     .big-box
     {
@@ -680,6 +693,11 @@ h2
     .search-phone
     {
         display: inline-block;
+        padding: 10px;
+    }
+    .search
+    {
+        padding: 10px;
     }
     .accommodation-2
     {
@@ -705,9 +723,5 @@ h2
     #bloc_page-2
     {
         margin-right: auto;
-    }
-    .register-2
-    {
-        margin-right: 30px;
     }
 }
