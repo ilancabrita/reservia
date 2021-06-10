@@ -342,6 +342,7 @@ header
     margin-right: 50px;
     font-size: 15px;
     padding-top: 5px;
+    text-decoration: none;
 }
 #accommodation
 {
@@ -351,6 +352,7 @@ header
 {
     font-size: 15px;
     padding-top: 5px;
+    text-decoration: none;
 }
 #activities
 {
@@ -528,7 +530,7 @@ h2
     flex-direction: row;
 }
 
-@media only screen (max-width : 375px)
+@media only screen and (max-width : 375px)
 {
     body 
     {
@@ -539,7 +541,11 @@ h2
     }
     header, .h2-header, .h3-header, .map-marker-alt, .filters, .information
     {
-        margin-left: 8px;
+        margin-left: 0;
+    }
+    .h2-header
+    {
+        margin: 10px;
     }
     .write2
     {
@@ -655,6 +661,7 @@ h2
     .case2
     {
         width: 90%;
+        margin: 5px;
     }
     .case3
     {
@@ -684,6 +691,8 @@ h2
     .phone
     {
         display: block;
+        width: 100%;
+        margin-top: 2px;
     }
     .phone-nav
     {
@@ -697,7 +706,7 @@ h2
     }
     .search
     {
-        padding: 10px;
+        padding: 12px;
     }
     .accommodation-2
     {
@@ -723,13 +732,41 @@ h2
     #bloc_page-2
     {
         margin-right: auto;
+        width: 400%;
+    }
+    .h3-header
+    {
+        margin: 10px;
+    }
+    .information
+    {
+        margin-left: 10px;
     }
 }
-@media screen (max-width : 667px)
+@media only screen and (max-width : 1024px)
 {
     .filters
     {
         display: flex;
         flex-wrap: wrap;
+    }
+    .big-box
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #bloc_page-1
+    {
+        margin-right: 150%;
+    }
+    .table-1
+    {
+        width: auto;
+        margin-right: 25px;
+    }
+    .table-2
+    {
+        width: auto;
+        margin-right: 25px;
     }
 }
