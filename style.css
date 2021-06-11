@@ -342,9 +342,8 @@ header
     margin-right: 50px;
     font-size: 15px;
     padding-top: 5px;
-    text-decoration: none;
 }
-#accommodation
+a[href="#activities"]
 {
     text-decoration: none;
 }
@@ -352,9 +351,8 @@ header
 {
     font-size: 15px;
     padding-top: 5px;
-    text-decoration: none;
 }
-#activities
+a[href="#accommodation"]
 {
     text-decoration: none;
 }
@@ -570,13 +568,16 @@ h2
     {
         width: 100%;
         border-radius: 0;
-        margin: 0;
-        padding: 0;
+        margin: 0px;
+        margin-right: 0px;
+        padding: 0px;
     }
     .table-1
     {
-        margin: 0;
         background-color: white;
+        margin: 0px;
+        padding: 0px;
+        margin-right: 0px;
         border: white
     }
     .show-more
@@ -623,6 +624,7 @@ h2
     {
         width: 375px;
         padding: 0;
+        margin: 0px;
     }
     .table-3
     {
@@ -666,6 +668,7 @@ h2
     .case3
     {
         width: 90%;
+        margin: 5px;
     }
     .case4
     {
@@ -743,6 +746,7 @@ h2
         margin-left: 10px;
     }
 }
+
 @media only screen and (max-width : 1024px)
 {
     .filters
@@ -762,15 +766,14 @@ h2
     .table-1
     {
         width: auto;
-        margin-right: 25px;
     }
     .table-2
     {
         width: auto;
-        margin-right: 25px;
     }
     .table-4
     {
         width: auto;
+        margin: 0px;
     }
 }
