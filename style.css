@@ -2,6 +2,12 @@ body
 {
     font-family: 'Raleway', sans-serif;
 }
+:root
+{
+    --big-color: #f2f2f2;
+    --big-color-white: white;
+    --big-color-3: #F2F2F2;
+}
 .show-more
 {
     text-decoration: none;
@@ -45,7 +51,6 @@ body
     border-radius: 25px;
     padding-right: 20px;
     margin-right: 15px;
-    --big-color-3: #F2F2F2;
 }
 .filters-icons
 {
@@ -375,7 +380,7 @@ a[href="#accommodation"]
 }
 .gray
 {
-    color: #F2F2F2;
+    color: var(--big-color);
 }
 .case1
 {
@@ -398,7 +403,6 @@ a[href="#accommodation"]
     margin: 10px;
     height: 110px;
     width: 100%;
-    --big-color-white: white;
 }
 .case2:active
 {
@@ -777,5 +781,32 @@ h2
     {
         width: auto;
         margin: 0px;
+    }
+}
+@media screen and (max-width : 425px)
+{
+    .h2-header
+    {
+        width: 100%;
+    }
+    .filters
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    body
+    {
+        width: 230%;
+    }
+    .case4
+    {
+        margin: auto;
+    }
+}
+@media screen and (max-width : 381px)
+{
+    body
+    {
+        width: 254%;
     }
 }
