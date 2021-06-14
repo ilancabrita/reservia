@@ -25,7 +25,6 @@ body
 .menu
 {
     display: flex;
-    flex-direction: row;
 }
 .star1
 {
@@ -336,11 +335,6 @@ body
     font-size: 16px;
     margin: 10px;
 }
-header
-{
-    display: flex;
-    flex-direction: row;
-}
 .accommodation
 {
     border-top: 2px solid #0065FC;
@@ -348,6 +342,7 @@ header
     margin-right: 50px;
     font-size: 15px;
     padding-top: 5px;
+    margin-left: auto;
 }
 a[href="#activities"]
 {
@@ -371,7 +366,7 @@ a[href="#accommodation"]
 }
 #bloc_page-1
 {
-    margin-right: 370%;
+    margin-right: 0;
 }
 .bloc-page
 {
@@ -546,6 +541,7 @@ h2
     header, .h2-header, .h3-header, .map-marker-alt, .filters, .information
     {
         margin-left: 0;
+
     }
     .h2-header
     {
@@ -755,6 +751,10 @@ h2
 
 @media only screen and (max-width : 1024px)
 {
+    body
+    {
+        width: 200%;
+    }
     .filters
     {
         display: flex;
@@ -783,6 +783,7 @@ h2
         margin: 0px;
     }
 }
+
 @media screen and (max-width : 425px)
 {
     .h2-header
@@ -803,6 +804,7 @@ h2
         margin: auto;
     }
 }
+
 @media screen and (max-width : 381px)
 {
     body
