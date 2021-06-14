@@ -371,12 +371,12 @@ a[href="#accommodation"]
 }
 #bloc_page-1
 {
-    margin-right: auto;
+    margin-right: 370%;
 }
 .bloc-page
 {
     height: 30px;
-    width: 70px
+    width: 70px;
 }
 .gray
 {
