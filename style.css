@@ -72,8 +72,6 @@ main, header
     color: #0356fc;
     font-size: 16px;
     font-weight: 900;
-    width: 20px;
-    height: 16px;
     text-align: center;
 }
 .fa-dog
@@ -170,7 +168,7 @@ main, header
     border-radius: 25px;
     background-color: var(--big-color);
     padding: 15px;
-    margin: 20px;
+    margin: 30px;
     width: 90%;
 }
 .table-2
@@ -541,12 +539,14 @@ h2
 
 @media only screen and (max-width : 375px)
 {
+    *
+    {
+        margin: 0px;
+        padding: 0px;
+    }
     body 
     {
       background-color: white;
-      margin-left: 0;
-      margin-right: 0;
-      margin-bottom: 0;
     }
     header, .h2-header, .h3-header, .map-marker-alt, .filters, .information
     {
@@ -827,20 +827,35 @@ h2
 {
     .table-1
     {
-        width: 60%;
+        width: 75%;
         margin: 0px;
-        margin-right: 20px;
+        margin-right: 50px;
         border: none;
     }
     .table-2
     {
-        width: calc(40%-20px);
+        width: calc(25%-50px);
         margin: 0px;
         border: none;
+    }
+    .table-3
+    {
+        margin: 0px;
+    }
+    .box2
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .box3
+    {
+        display: flex;
+        flex-direction: row;
     }
     .case1
     {
         width: 30%;
+        height: 50%;
     }
     .case2
     {
@@ -853,9 +868,12 @@ h2
     .filters
     {
         margin: 10px;
+        display: flex;
     }
     .column1, .column2
     {
         min-width: 20%;
+        display: flex;
+        flex-direction: column;
     }
 }
