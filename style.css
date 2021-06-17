@@ -539,11 +539,6 @@ h2
 
 @media only screen and (max-width : 375px)
 {
-    *
-    {
-        margin: 0px;
-        padding: 0px;
-    }
     body 
     {
       background-color: white;
@@ -669,7 +664,7 @@ h2
     .case1
     {
         border: 1px solid rgb(209, 209, 209);
-        width: 90%;
+        width: 100%;
         height: 190px;
     }
     .case2
@@ -699,13 +694,10 @@ h2
         width: 100%;
         align-items: center;
     }
-    .web
+    .menu
     {
-        display: none;
-    }
-    .phone
-    {
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
         width: 100%;
         margin-top: 2px;
     }
@@ -723,31 +715,31 @@ h2
     {
         padding: 12px;
     }
-    .accommodation-2
+    .accommodation
     {
+        order: 2;
         width: 50%;
         border-bottom: 2px solid blue;
+        border-top: none;
         margin: 0;
         text-align: center;
     }
     .activities
     {
+        order: 3;
         width: 50%;
         border-bottom: 2px solid gray;
         text-align: center;
     }
-    .menu-2
+    #bloc_page-1
     {
-        display: flex;
+        order: 1;
+        width: 73%;
     }
-    .menu-1
+    .register
     {
-        display: flex;
-    }
-    #bloc_page-2
-    {
-        margin-right: auto;
-        width: 400%;
+        order: 1;
+        width: 20%;
     }
     .h3-header
     {
@@ -756,6 +748,14 @@ h2
     .information
     {
         margin-left: 10px;
+    }
+    .web
+    {
+        display: none;
+    }
+    main, header
+    {
+        padding: 0px;
     }
 }
 
@@ -774,10 +774,6 @@ h2
     {
         display: flex;
         flex-direction: column-reverse;
-    }
-    #bloc_page-1
-    {
-        margin-right: 150%;
     }
     .table-1
     {
