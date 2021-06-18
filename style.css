@@ -546,7 +546,6 @@ h2
     header, .h2-header, .h3-header, .map-marker-alt, .filters, .information
     {
         margin-left: 0;
-
     }
     .h2-header
     {
@@ -577,15 +576,24 @@ h2
         border-radius: 0;
         margin: 0px;
         margin-right: 0px;
-        padding: 0px;
+        padding: 15px;
     }
     .table-1
     {
         background-color: var(--big-color-2);
         margin: 0px;
-        padding: 0px;
-        margin-right: 0px;
         border: var(--big-color-2);
+        width: 100%;
+        padding: 15px;
+    }
+    .table-3
+    {
+        margin: 0;
+        padding: 0;
+    }
+    .table-4
+    {
+        margin: 0;
     }
     .show-more
     {
@@ -597,7 +605,7 @@ h2
     {
         border-top-left-radius: 25px;
         border-top-right-radius: 25px;
-        height: 120px;
+        height: 100px;
         width: 100%;
     }
     .image-tab-2
@@ -627,21 +635,6 @@ h2
         height: 120px;
         width: auto;
     }
-    .table-1
-    {
-        width: 375px;
-        padding: 0;
-        margin: 0px;
-    }
-    .table-3
-    {
-        margin: 0;
-        padding: 0;
-    }
-    .table-4
-    {
-        margin: 0;
-    }
     .box2
     {
         display: flex;
@@ -670,6 +663,7 @@ h2
     .case2
     {
         width: 90%;
+        height: 120px;
         margin: 5px;
     }
     .case3
