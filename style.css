@@ -553,10 +553,9 @@ h2
     }
     .Econimic, .Family, .Romantic, .Animal
     {
-        font-weight: 1300;
-        font-size: 20px;
+        font-size: 30px;
     }
-    .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
+    .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog, .fa-search, .fa-map-marker-alt
     {
         padding: 20px;
     }
@@ -753,7 +752,7 @@ h2
     }
     .search
     {
-        padding: 32px;
+        padding: 15px;
     }
     .search2
     {
@@ -892,11 +891,22 @@ h2
 {
     .table-2
     {
-        width: calc(25%-50px);
+        width: 35%;
         margin: 0px;
         border: none;
     }
     .table-3
+    {
+        margin: 0px;
+    }
+    .table-1
+    {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 65%;
+    }
+    .table-4
     {
         margin: 0px;
     }
@@ -913,10 +923,16 @@ h2
     .case2
     {
         width: auto;
+        height: 30%;
     }
-    .table-4
+    .case1
     {
-        margin: 0px;
+        height: 50%;
+
+    }
+    .image-tab-2
+    {
+        height: 128px;
     }
     .filters
     {
@@ -929,7 +945,21 @@ h2
         display: flex;
         flex-direction: column;
     }
+    .fa-chart-line
+    {
+        margin-right: auto;
+    }
+    .search2
+    {
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+    .h2-tab-4, .h3-tab-4
+    {
+        font-size: 20px;
+    }
 }
+
 @media screen and (max-width : 1440px) and (min-width : 376)
 {
     .table-1
