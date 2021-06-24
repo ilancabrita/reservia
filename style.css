@@ -34,6 +34,7 @@ main, header
 }
 .menu
 {
+    width: 100%;
     display: flex;
 }
 .star1
@@ -196,8 +197,8 @@ footer
 {
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
-    height: 110px;
     width: 110px;
+    height: 110px;
     object-fit: cover;
 }
 .image-tab-3-1
@@ -457,6 +458,12 @@ a[href="#accommodation"]
     border: 2px solid var(--big-color);
     background-color: var(--big-color);
     margin-right: 30px;
+    
+}
+.table-2
+{
+    margin: 0px;
+    border: none;
 }
 
 
@@ -784,37 +791,12 @@ a[href="#accommodation"]
     }
 }
 
-@media screen and (max-width : 425px)
-{
-    .h2-header
-    {
-        width: 100%;
-    }
-    .filters
-    {
-        display: flex;
-        flex-direction: row;
-    }
-    body
-    {
-        width: 230%;
-    }
-    .case4
-    {
-        margin: auto;
-    }
-}
-
-@media screen and (max-width : 381px)
-{
-    body
-    {
-        width: 254%;
-    }
-}
-
 @media screen and (max-width : 1440px)
 {
+    .Econimic, .Family, .Romantic, .Animal
+    {
+        font-size: 30px;
+    }
     .table-3
     {
         margin: 0px;
@@ -827,6 +809,7 @@ a[href="#accommodation"]
     {
         border-radius: 25px;
         padding: 15px;
+        width: 65%;
     }
     .table-2
     {
@@ -857,7 +840,7 @@ a[href="#accommodation"]
     }
     .image-tab-2
     {
-        height: 176px;
+        height: 130px;
     }
     .filters
     {
@@ -893,7 +876,7 @@ a[href="#accommodation"]
         margin-right: 30px;
         width: 55%;
     }
-    .title-tab-2
+    .title-tab-2-1
     {
         font-weight: 700;
         font-size: 20px;
@@ -901,21 +884,25 @@ a[href="#accommodation"]
         margin-right: auto;
         display: flex;
         flex-direction: row;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
     .title-tab-3
     {
         font-weight: 700;
-        font-size: 20px;
+        font-size: 30px;
         padding-left: 12px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     .show-more
     {
-        font-size: 30px;
+        font-size: 20px;
     }
     .h3-filters
     {
         font-weight: 800;
-        font-size: 18px;
+        font-size: 25px;
         margin-right: 10px;
         padding-top: 10px;
     }
@@ -923,13 +910,15 @@ a[href="#accommodation"]
     {
         font-weight: 800;
         font-size: 30px;
-        margin-bottom: 2px;
+        margin-bottom: 10px;
+        margin-top: 30px;
     }
     .h3-header
     {
         font-weight: 200;
         font-size: 30px;
-        margin-top: 2px;
+        margin-top: 10px;
+        margin-bottom: 30px;
     }
     .fa-info
     {
@@ -940,13 +929,13 @@ a[href="#accommodation"]
         height: 10px;
         width: 10px;
         text-align: center;
-        font-size: 7px;
+        font-size: 15px;
         margin-right: 5px;
     }
     .information
     {
         font-weight: 200;
-        font-size: 12px;
+        font-size: 20px;
         margin: 20px;
         margin-left: 0;
     }
@@ -958,15 +947,5 @@ a[href="#accommodation"]
     {
         width: 30%;
         height: 50%;
-    }
-    .table-2
-    {
-        width: calc(30%-30px);
-        margin: 0px;
-        border: none;
-    }
-    .table-1
-    {
-        width: 70%;
     }
 }
