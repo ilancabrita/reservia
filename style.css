@@ -660,16 +660,43 @@ a[href="#accommodation"]
     }
     .table-1
     {
-        width: auto;
+        width: 100%;
+        margin-top: 10px;
     }
     .table-2
     {
-        width: auto;
+        width: 100%;
+        margin-bottom: 10px;
     }
     .table-4
     {
         width: auto;
         margin: 0px;
+    }
+    .fa-chart-line
+    {
+        margin-left: 62%
+    }
+    .Econimic, .Family, .Romantic, .Animal
+    {
+        font-size: 17px;
+    }
+    .title-image-2, .price-tab-2
+    {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    .title-image-1, .price-tab-1
+    {
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+    .image-tab-2
+    {
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+        width: 30%;
+        height: 176px;
     }
 }
 
