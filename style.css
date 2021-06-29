@@ -17,6 +17,8 @@ main, header
     --big-color: #f2f2f2;
     --big-color-white: white;
     --big-color-3: #F2F2F2;
+    --light-bleu: #DEEBFF;
+    --blue: #0065FC;
 }
 .form
 {
@@ -182,7 +184,7 @@ footer
 }
 .fa-chart-line
 {
-    margin-left: 38%;
+    margin-left: auto;
     font-size: 30px;
 }
 .contener
@@ -718,6 +720,15 @@ a[href="#accommodation"]
     {
         font-size: 26px;
     }
+    .register2
+    {
+        font-size: 24px;
+    }
+    .activities2, .accommodation2
+    {
+        font-size: 22px;
+        padding-bottom: 10px;
+    }
     header, .h2-header, .h3-header, .map-marker-alt, .filters, .information
     {
         margin-left: 0;
@@ -730,17 +741,36 @@ a[href="#accommodation"]
     {
         padding: 15px;
     }
-    .fa-search, .fa-map-marker-alt
+    .fa-search
     {
-        padding: 20px;
+        padding: 8px;
+    }
+    .fa-map-marker-alt
+    {
+        padding: 14px;
+    }   
+    .search-phone
+    {
+        display: inline-block;
+        padding: 10px;
+        border-radius: 10px;
+        margin-left: -5px;
+    }
+    .search
+    {
+        padding: 8px;
+    }
+    .search2
+    {
+        font-size: 16px;
+        padding: 10px;
+        width: 65%;
+        border: none;
+        border: 1px solid var(--big-color-3);
     }
     .h2-header
     {
         margin: 10px;
-    }
-    .write2
-    {
-        padding: 30px;
     }
     .filters
     {
@@ -801,7 +831,9 @@ a[href="#accommodation"]
     }
     .title-tab-1
     {
-        font-size: 40px;
+        font-size: 20px;
+        margin: 0px;
+        width: 100%;
     }
     .title-tab-2
     {
@@ -941,26 +973,11 @@ a[href="#accommodation"]
         display: flex;
         flex-direction: row;
     }
-    .search-phone
-    {
-        display: inline-block;
-        padding: 10px;
-    }
-    .search
-    {
-        padding: 8px;
-    }
-    .search2
-    {
-        font-size: 40px;
-        padding: 10px;
-        width: 50%;
-    }
     .accommodation
     {
         order: 2;
         width: 50%;
-        border-bottom: 2px solid blue;
+        border-bottom: 3px solid var(--blue);
         border-top: none;
         margin: 0;
         text-align: center;
@@ -969,7 +986,7 @@ a[href="#accommodation"]
     {
         order: 3;
         width: 50%;
-        border-bottom: 2px solid gray;
+        border-bottom: 3px solid var(--big-color-3);
         text-align: center;
     }
     #bloc_page-1
@@ -990,10 +1007,6 @@ a[href="#accommodation"]
         margin-left: 0px;
         padding-top: 43px;
         padding-left: 30px;
-    }
-    .accommodation2, .activities2, .register2
-    {
-        font-size: 26px;
     }
     .h3-header
     {
@@ -1025,10 +1038,6 @@ a[href="#accommodation"]
     {
         padding-top: 10px;
         padding-bottom: 10px;
-    }
-    .fa-map-marker-alt
-    {
-        padding: 23px;
     }
 }
 
