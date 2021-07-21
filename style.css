@@ -19,6 +19,8 @@ main, header
     --big-color-3: #F2F2F2;
     --light-bleu: #DEEBFF;
     --blue: #0065FC;
+    --ciel: #91bcfd;
+    --rose: pink;
 }
 .form
 {
@@ -62,9 +64,13 @@ main, header
     flex-direction: row;
     margin: 10px;
 }
+.h3-filters
+{
+    align-items: center;
+}
 .filter
 {
-    border: 1px solid ;
+    border: 1px solid var(--big-color);
     border-radius: 25px;
     padding-right: 20px;
     margin-right: 15px;
@@ -115,7 +121,7 @@ main, header
 }
 .Econimic:hover
 {
-    background-color: green;
+    background-color: var(--ciel);
     cursor: pointer;
 }
 .Family
@@ -129,7 +135,7 @@ main, header
 }
 .Family:hover
 {
-    background-color: green;
+    background-color: var(--ciel);
     cursor: pointer;
 }
 .Romantic
@@ -143,7 +149,7 @@ main, header
 }
 .Romantic:hover
 {
-    background-color: green;
+    background-color: var(--ciel);
     cursor: pointer;
 }
 .Animal
@@ -157,7 +163,7 @@ main, header
 }
 .Animal:hover
 {
-    background-color: green;
+    background-color: var(--ciel);
     cursor: pointer;
 }
 .fa-map-marker-alt
@@ -171,8 +177,6 @@ main, header
 }
 .table-3
 {
-    border: 2px;
-    border-radius: 25px;
     padding: 15px;
     margin: 10px;
 }
@@ -334,7 +338,7 @@ footer
 }
 .case1:active
 {
-    background-color: indigo;
+    background-color: var(--rose);
 }
 .case2
 {
@@ -347,7 +351,7 @@ footer
 }
 .case2:active
 {
-    background-color: indigo;
+    background-color: var(--rose);
 }
 .case3
 {
@@ -379,7 +383,7 @@ footer
 .box3
 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 .box4
 {
@@ -431,13 +435,16 @@ nav
     display: flex;
     flex-direction: row;
 }
+h1
+{
+    font-weight: 800;
+    font-size: 15px;
+}
 .register
 {
     color: #0065FC;
     margin-left: 50px;
-    font-size: 15px;
     padding-top: 25px;
-    font-weight: 800;
 }
 .accommodation
 {
@@ -465,6 +472,7 @@ a[href="#accommodation"]
 {
     border: 2px solid var(--big-color);
     background-color: var(--big-color);
+    border-radius: 25px;
     margin-right: 30px;
     
 }
@@ -472,8 +480,16 @@ a[href="#accommodation"]
 {
     margin: 0px;
     border: none;
+    background-color: var(--big-color);
+    border: 2px solid var(--big-color);
+    border-radius: 25px;
 }
-
+.column1, .column2
+{
+    display: flex;
+    flex-direction: column;
+    min-width: 25%;
+}
 
 
 @media screen and (max-width : 1440px)
@@ -1040,4 +1056,3 @@ a[href="#accommodation"]
         padding-bottom: 10px;
     }
 }
-
