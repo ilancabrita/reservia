@@ -4,6 +4,11 @@
     padding: 0px;
     box-sizing: border-box;
 }
+html
+{
+    /*1rem = 10px*/
+    font-size: 62,5%;
+}
 body
 {
     font-family: 'Raleway', sans-serif;
@@ -25,6 +30,7 @@ main, header
 .form
 {
     display: flex;
+    margin-left: 2rem;
 }
 .show-more
 {
@@ -60,9 +66,9 @@ main, header
 .information
 {
     font-weight: 200;
-    font-size: 20px;
-    margin: 20px;
-    margin-left: 0;
+    font-size: 2rem;
+    margin: 2rem;
+    margin-left: 1rem;
 }
 .star1
 {
@@ -79,13 +85,13 @@ main, header
 }
 .search2
 {
-    padding-top: 7px;
-    padding-bottom: 7px;
-    font-size: 20px;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    font-size: 2rem;
 }
 .fa-map-marker-alt
 {
-    padding: 14px;
+    padding: 1.5rem;
 }
 .search
 {
@@ -214,14 +220,14 @@ main, header
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     background-color: var(--big-color-3);
-    padding: 8px;
+    padding: 0.8rem;
 }
 .table-1
 {
     border: 2px solid var(--big-color);
     background-color: var(--big-color);
     border-radius: 25px;
-    margin-right: 30px;
+    margin-right: 3rem;
     width: 100%;
     
 }
@@ -448,6 +454,7 @@ footer
 .h3-header, .h2-header
 {
     margin-bottom: 10px;
+    margin-left: 1.5rem;
 }
 h3
 {
@@ -539,9 +546,18 @@ a[href="#accommodation"]
 
 @media screen and (max-width : 1440px)
 {
+    body
+    {
+        padding: 1rem;
+    }
+    main
+    {
+        padding: 0rem;
+        margin-right: 2rem;
+    }
     .Econimic, .Family, .Romantic, .Animal
     {
-        font-size: 30px;
+        font-size: 2rem;
     }
     .table-3
     {
@@ -554,8 +570,8 @@ a[href="#accommodation"]
     .table-1
     {
         border-radius: 25px;
-        padding: 15px;
-        width: 65%;
+        padding: 1.5rem;
+        width: 70%;
     }
     .table-2
     {
@@ -620,23 +636,22 @@ a[href="#accommodation"]
     .title-tab-1
     {
         font-weight: 700;
-        font-size: 30px;
-        padding-left: 12px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        margin-right: 30px;
-        width: 55%;
+        font-size: 3rem;
+        padding-left: 1.2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        width: 100%;
     }
     .title-tab-2
     {
         font-weight: 700;
-        font-size: 30px;
-        padding-left: 12px;
+        font-size: 3rem;
+        padding-left: 1.2rem;
         margin-right: auto;
         display: flex;
         flex-direction: row;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
     }
     .title-tab-3
     {
@@ -660,14 +675,14 @@ a[href="#accommodation"]
     .h2-header
     {
         font-weight: 800;
-        font-size: 30px;
+        font-size: 2rem;
         margin-bottom: 10px;
         margin-top: 30px;
     }
     .h3-header
     {
         font-weight: 200;
-        font-size: 30px;
+        font-size: 2rem;
         margin-top: 10px;
         margin-bottom: 30px;
     }
@@ -682,13 +697,6 @@ a[href="#accommodation"]
         text-align: center;
         font-size: 15px;
         margin-right: 5px;
-    }
-    .information
-    {
-        font-weight: 200;
-        font-size: 20px;
-        margin: 20px;
-        margin-left: 0;
     }
     .text-tab-2
     {
