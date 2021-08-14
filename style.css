@@ -77,17 +77,16 @@ main
 }
 .star1
 {
-    padding-left: 10px;
-    margin: 2px;
+    margin: 1rem;
+    margin-left: 1.5rem;
     font-size: 1.5rem;
 }
 .star2
 {
     display: flex;
     flex-direction: row;
-    margin: 0.1rem;
-    margin-left: 0.4rem;
-    margin-top: 1rem;
+    margin: 1rem;
+    margin-left: 1rem;
     font-size: 1.5rem;
 }
 .search2
@@ -222,6 +221,10 @@ main
     background-color: var(--ciel);
     cursor: pointer;
 }
+.accommodation, .activities, .register
+{
+    font-size: 2rem;
+}
 .fa-map-marker-alt
 {
     color: #666766;
@@ -278,7 +281,7 @@ footer
 {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    height: 110px;
+    height: 9rem;
     width: 100%;
     object-fit: cover;
 }
@@ -378,31 +381,31 @@ footer
 }
 .price-tab-1
 {
-    margin: 0.2rem;
+    margin: 0.5rem;
+    margin-left: 1.5rem;
     font-weight: 200;
     font-size: 2rem;
-    padding-left: 1rem;
 }
 .price-tab-2
 {
     margin: 0.2rem;
-    margin-left: 0.5rem;
+    margin-left: 1rem;
     font-weight: 200;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 .title-image-1
 {
     font-size: 2rem;
-    margin: 2px;
+    margin: 0.5rem;
     margin-left: 0.5rem;
-    padding-left: 10px;
+    padding-left: 1rem;
 }
 .title-image-2
 {
-    margin: 2px;
-    margin-left: 5px;
+    margin: 0.5rem;
+    margin-left: 1rem;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 .bloc-page
 {
@@ -595,6 +598,7 @@ a[href="#accommodation"]
     {
         border-radius: 25px;
         padding: 1.5rem;
+        width: 60%;
     }
     .table-2
     {
@@ -619,14 +623,22 @@ a[href="#accommodation"]
         width: auto;
         height: 30%;
     }
+    .title-image-1, .price-tab-1, .title-image-2, .price-tab-2, .text-tab-3
+    {
+        font-size: 1rem;
+    }
+    .title-tab-2
+    {
+        font-size: 1.3rem;
+    }
+    .image-tab-2
+    {
+        height: 11rem;
+    }
     .case1
     {
         height: 50%;
 
-    }
-    .image-tab-2
-    {
-        height: 130px;
     }
     .filters
     {
@@ -752,7 +764,7 @@ a[href="#accommodation"]
     .table-1
     {
         width: 100%;
-        margin-top: 10px;
+        margin-top: 1rem;
     }
     .table-2
     {
