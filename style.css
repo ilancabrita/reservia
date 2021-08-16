@@ -17,6 +17,10 @@ main, header
 {
     padding: 0 2rem;
 }
+footer
+{
+    padding: 0rem;
+}
 main
 {
     width: 75%;
@@ -281,7 +285,7 @@ footer
 {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    height: 9rem;
+    height: 11rem;
     width: 100%;
     object-fit: cover;
 }
@@ -452,7 +456,7 @@ footer
 }
 .case4
 {
-    margin: 40px;
+    margin: 2rem;
     width: 25%;
 }
 .box-shadow
@@ -501,14 +505,14 @@ h2
 .h2-tab-4
 {
     font-weight: 700;
-    font-size: 16px;
+    font-size: 4rem;
 }
 .h3-tab-4
 {
-    font-weight: 100;
-    font-size: 16px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 .big-box
 {
@@ -544,12 +548,15 @@ h1
 }
 .accommodation
 {
-    border-top: 2px solid #0065FC;
     color: #0065FC;
     margin-right: 50px;
     font-size: 16px;
     padding-top: 22px;
     margin-left: auto;
+}
+.accommodation:hover
+{
+    border-top: 2px solid #0065FC;
 }
 a[href="#activities"]
 {
@@ -623,13 +630,21 @@ a[href="#accommodation"]
         width: auto;
         height: 30%;
     }
-    .title-image-1, .price-tab-1, .title-image-2, .price-tab-2, .text-tab-3
+    .title-image-1, .price-tab-1, .text-tab-3
     {
         font-size: 1rem;
     }
-    .title-tab-2
+    .title-image-2, .price-tab-2
     {
         font-size: 1.3rem;
+    }
+    .title-tab-2
+    {
+        font-size: 1.5rem;
+    }
+    .fa-chart-line
+    {
+        margin-left: 30%;
     }
     .image-tab-2
     {
@@ -761,15 +776,24 @@ a[href="#accommodation"]
         display: flex;
         flex-direction: column-reverse;
     }
+    .title-tab-2
+    {
+        font-size: 2rem;
+    }
     .table-1
     {
         width: 100%;
+        border-radius: 25px;
+        margin: 0rem;
+        margin-bottom: 0.5rem;
         margin-top: 1rem;
     }
     .table-2
     {
         width: 100%;
-        margin-bottom: 10px;
+        border-radius: 25px;
+        margin: 0rem;
+        margin-bottom: 1rem;
     }
     .table-4
     {
@@ -791,20 +815,68 @@ a[href="#accommodation"]
     }
     .title-image-1, .price-tab-1
     {
-        font-size: 23px;
-        margin-bottom: 10px;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
     }
     .image-tab-2
     {
         border-top-left-radius: 25px;
         border-bottom-left-radius: 25px;
         width: 30%;
-        height: 176px;
+        height: 12rem;
+    }
+    .title-tab-3
+    {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    .text-tab-3
+    {
+        font-size: 1.5rem;
+    }
+    .box3
+    {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .column1
+    {
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+    }
+    .column2
+    {
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+    }
+    .image-tab-3-1
+    {
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        height: 12rem;
+        width: 100%;
+    }
+    .image-tab-3-2
+    {
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        height: 12rem;
+        width: auto;
+    }
+    .image-tab-3-3
+    {
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        height: 12rem;
+        width: auto;
     }
 }
 
 
-@media only screen and (max-width : 414px)
+@media only screen and (max-width : 425px)
 {
     body
     {
@@ -1079,10 +1151,14 @@ a[href="#accommodation"]
     {
         order: 2;
         width: 50%;
-        border-bottom: 3px solid var(--blue);
         border-top: none;
         margin: 0;
         text-align: center;
+    }
+    .accommodation:hover
+    {
+        border-top: none;
+        border-bottom: 3px solid var(--blue);
     }
     .activities
     {
