@@ -830,8 +830,8 @@ li
     }
     .title-image-2, .price-tab-2
     {
-        font-size: 20px;
-        margin-bottom: 25px;
+        font-size: 2rem;
+        margin-bottom: 2rem;
     }
     .title-image-1, .price-tab-1
     {
@@ -843,7 +843,7 @@ li
         border-top-left-radius: 25px;
         border-bottom-left-radius: 25px;
         width: 30%;
-        height: 12rem;
+        height: 15rem;
     }
     .title-tab-3
     {
@@ -899,6 +899,70 @@ li
     }
 }
 
+@media only screen and (max-width : 768px)
+{
+    body
+    {
+        padding: 0rem;
+    }
+    .accommodation
+    {
+        width: 25%;
+        margin: 0;
+        margin-left: auto;
+        text-align: center;
+        padding-top: 30px;
+        border-top: 3px solid var(--big-color-3);
+    }
+    .accommodation:hover
+    {
+        border-top: 3px solid var(--blue);
+    }
+    .activities
+    {
+        width: 25%;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .bloc-page
+    {
+        width: 120px;
+        height: 60px;
+    }
+    .register
+    {
+        width: 25%;
+        margin-right: 0px;
+        margin-left: 0px;
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+    .title-tab-2, .fa-chart-line
+    {
+        font-size: 1.5rem;
+    }
+    .information
+    {
+        font-size: 1.5rem;
+        margin-left: 2rem;
+    }
+    .h3-filters
+    {
+        font-size: 1.5rem;
+    }
+    .table-1, .table-2
+    {
+        border-radius: 0px;
+    }
+    .accommodation, .activities, .register
+    {
+        font-size: 1.5rem;
+    }
+    .case4
+    {
+        width: 23%;
+    }
+}
 
 @media only screen and (max-width : 425px)
 {
