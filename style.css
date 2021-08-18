@@ -905,6 +905,7 @@ li
     body
     {
         width: 100%;
+        padding: 0rem;
     }
     header, nav
     {
@@ -1062,22 +1063,22 @@ li
     {
         border-top-left-radius: 25px;
         border-top-right-radius: 25px;
-        height: 135px;
+        height: 13rem;
         width: 100%;
     }
     .image-tab-3-2
     {
         border-top-left-radius: 25px;
         border-top-right-radius: 25px;
-        height: 135px;
-        width: auto;
+        height: 15rem;
+        width: 100%;
     }
     .image-tab-3-3
     {
         border-top-left-radius: 25px;
         border-top-right-radius: 25px;
-        height: 135px;
-        width: auto;
+        height: 15rem;
+        width: 100%;
     }
     .box2
     {
@@ -1127,7 +1128,10 @@ li
     }
     .text-tab-3
     {
-        font-size: 16px;
+        font-size: 1.3rem;
+        margin: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
     }
     .title-image-2, .price-tab-2
     {
@@ -1178,6 +1182,7 @@ li
         border-top: none;
         margin: 0;
         text-align: center;
+        border-bottom: 3px solid var(--big-color-3);
     }
     .accommodation:hover
     {
@@ -1240,5 +1245,59 @@ li
     {
         padding-top: 10px;
         padding-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width : 375px)
+{
+    body
+    {
+        padding: 0px;
+    }
+    .text-tab-3
+    {
+        font-size: 1.1rem;
+    }
+    .h2-header, .h3-header
+    {
+        font-size: 1.3rem;
+    }
+
+}
+
+@media only screen and (max-width : 320px)
+{
+    .h3-filters
+    {
+        font-size: 2rem;
+    }
+    .information
+    {
+        font-size: 1rem;
+        margin-right: 1rem;
+    }
+    .fa-info
+    {
+        font-size: 1rem;
+    }
+    .fa-money-bill-wave, .fa-child, .fa-dog, .fa-heart
+    {
+        font-size: 1rem;
+    }
+    .Econimic, .Family, .Romantic, .Animal
+    {
+        font-size: 1rem;
+    }
+    .title-tab-2
+    {
+        font-size: 1rem;
+    }
+    .fa-chart-line
+    {
+        font-size: 1rem;
+    }
+    .title-image-2, .price-tab-2
+    {
+        font-size: 1rem;
     }
 }
