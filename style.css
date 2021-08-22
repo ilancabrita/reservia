@@ -962,6 +962,10 @@ li
     {
         width: 23%;
     }
+    .title-image-1
+    {
+        font-size: 1rem;
+    }
 }
 
 @media only screen and (max-width : 425px)
@@ -1322,11 +1326,32 @@ li
     {
         font-size: 1.1rem;
     }
-    .h2-header, .h3-header
+    .h2-header
+    {
+        font-size: 1.6rem;
+    }
+    .h3-header
+    {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .accommodation, .activities, .register
     {
         font-size: 1.3rem;
     }
-
+    .fa-info
+    {
+        font-size: 1rem;
+    }
+    .h3-filters
+    {
+        font-size: 2.5rem;
+    }
+    .title-image-2, .price-tab-2
+    {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
 }
 
 @media only screen and (max-width : 320px)
