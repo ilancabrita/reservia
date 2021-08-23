@@ -451,13 +451,21 @@ footer
 {
     background-color: var(--rose);
 }
-.case3
+.case3-1, .case3-2, .case3-3
 {
     border: 2px solid rgb(209, 209, 209);
     border-radius: 25px;
     background-color: white;
     margin: 10px;
-    width: 95%;
+    width: 100%;
+}
+.case3-2
+{
+    height: 70%;
+}
+.case3-3
+{
+    height: auto;
 }
 .case4
 {
@@ -769,6 +777,22 @@ li
     {
         width: 27%;
     }
+    .case3-1
+    {
+        width: 30%;
+    }
+    .case3-2, .case3-3
+    {
+        width: 90%;
+    }
+    .case3-3
+    {
+        height: 47%;
+    }
+    .case3-2
+    {
+        height: 50%;
+    }
 }
 
 @media screen and (max-width : 1440px) and (min-width : 376px)
@@ -897,6 +921,11 @@ li
     {
         width: 25%;
     }
+    .case3-1, .case3-2, .case3-3
+    {
+        width: 95%;
+        height: auto;
+    }
 }
 
 @media only screen and (max-width : 768px)
@@ -964,7 +993,7 @@ li
     }
     .title-image-1
     {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 }
 
