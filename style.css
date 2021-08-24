@@ -313,7 +313,7 @@ footer
 {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    height: 15rem;
+    height: 13rem;
     width: 100%;
     object-fit: cover;
 }
@@ -321,7 +321,7 @@ footer
 {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    height: 15rem;
+    height: 25rem;
     width: 100%;
     object-fit: cover;
 }
@@ -345,7 +345,7 @@ footer
     border-bottom-right-radius: 25px;
     padding-left: 1rem;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 1rem;
 }
 .title-tab-1, .title-tab-2, .title-tab-3
@@ -451,21 +451,21 @@ footer
 {
     background-color: var(--rose);
 }
-.case3-1, .case3-2, .case3-3
+.case3
 {
     border: 2px solid rgb(209, 209, 209);
     border-radius: 25px;
     background-color: white;
     margin: 10px;
-    width: 100%;
+    width: 95%;
 }
-.case3-2
+.height1
 {
-    height: 70%;
+    height: 75%;
 }
-.case3-3
+.height2
 {
-    height: auto;
+    height: 25%;
 }
 .case4
 {
@@ -590,9 +590,7 @@ a[href="#accommodation"]
 {
     display: flex;
     flex-direction: column;
-    min-width: 25%;
-    font-size: 16pc;
-    padding-top: 10px;
+    width: 70%;
 }
 a
 {
@@ -777,21 +775,17 @@ li
     {
         width: 27%;
     }
-    .case3-1
+    .image-tab-3-1
     {
-        width: 30%;
+        height: 30rem;
     }
-    .case3-2, .case3-3
+    .image-tab-3-2
     {
-        width: 90%;
+        height: 10rem;
     }
-    .case3-3
+    .image-tab-3-3
     {
-        height: 47%;
-    }
-    .case3-2
-    {
-        height: 50%;
+        height: 15rem;
     }
 }
 
@@ -920,11 +914,6 @@ li
     .case4
     {
         width: 25%;
-    }
-    .case3-1, .case3-2, .case3-3
-    {
-        width: 95%;
-        height: auto;
     }
 }
 
